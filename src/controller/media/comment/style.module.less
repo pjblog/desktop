@@ -1,0 +1,32 @@
+.comment{
+  position: relative;
+  .avatar{
+    width: 40px;
+    border: 1px dashed #363843;
+    border-radius: 50%;
+    height: 40px;
+    position: relative;
+  }
+  &::after {
+    position: absolute;
+    left: 20px;
+    top: 40px;
+    width: 1px;
+    height: calc(100% - 40px);
+    content: '';
+    border-left: 1px dashed #363843;
+  }
+  .markdown{
+    padding-bottom: 40px;
+    padding-top: 8px;
+    font-size: 12px;
+    max-width: 500px;
+  }
+}
+
+.poster{
+  // background-color: #0F1014;
+  width: 100%;
+  padding: 12px 0;
+  border-top: 1px dashed #363843;
+}
