@@ -1,6 +1,6 @@
 {
   "name": "@pjblog/desktop",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "description": "PJBlog Control 后台管理系统",
   "type": "module",
   "main": "index.mjs",
@@ -13,6 +13,10 @@
   "dependencies": { 
     "koa-send": "^5.0.1"
   },
+  "files": [
+    "dist",
+    "index.mjs"
+  ],
   "devDependencies": {
     "@types/react": "^18.2.38",
     "@types/react-dom": "^18.2.17",
