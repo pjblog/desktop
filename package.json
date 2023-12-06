@@ -1,15 +1,30 @@
 {
-  "name": "desktop",
-  "private": true,
-  "version": "0.0.0",
+  "name": "@pjblog/desktop",
+  "version": "2.2.0",
+  "description": "PJBlog Control 后台管理系统",
   "type": "module",
+  "main": "index.mjs",
   "scripts": {
     "dev": "vite --host",
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
-  "dependencies": {
+  "dependencies": { 
+    "koa-send": "^5.0.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.38",
+    "@types/react-dom": "^18.2.17",
+    "@typescript-eslint/eslint-plugin": "^6.12.0",
+    "@typescript-eslint/parser": "^6.12.0",
+    "@vitejs/plugin-react": "^4.2.0",
+    "eslint": "^8.54.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.4",
+    "less": "^4.2.0",
+    "typescript": "^5.3.2",
+    "vite": "^5.0.2",
     "@ant-design/icons": "^5.2.6",
     "@codemirror/lang-markdown": "^6.2.3",
     "@codemirror/language": "^6.9.3",
@@ -32,18 +47,5 @@
     "react-dnd-html5-backend": "^16.0.1",
     "react-dom": "^18.2.0",
     "thememirror": "^2.0.1"
-  },
-  "devDependencies": {
-    "@types/react": "^18.2.38",
-    "@types/react-dom": "^18.2.17",
-    "@typescript-eslint/eslint-plugin": "^6.12.0",
-    "@typescript-eslint/parser": "^6.12.0",
-    "@vitejs/plugin-react": "^4.2.0",
-    "eslint": "^8.54.0",
-    "eslint-plugin-react-hooks": "^4.6.0",
-    "eslint-plugin-react-refresh": "^0.4.4",
-    "less": "^4.2.0",
-    "typescript": "^5.3.2",
-    "vite": "^5.0.2"
   }
 }
