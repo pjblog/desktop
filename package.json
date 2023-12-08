@@ -1,6 +1,6 @@
 {
   "name": "@pjblog/desktop",
-  "version": "2.2.2",
+  "version": "2.2.3",
   "description": "PJBlog Control 后台管理系统",
   "type": "module",
   "main": "index.mjs",

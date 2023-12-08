@@ -12,7 +12,7 @@ export default async (ctx, next) => {
     await staticServe(ctx, path);
   } catch (e) {
     if (e.status === 404) {
-      await next();
+      await staticServe(ctx, '/');
     } else {
       throw e;
     }
